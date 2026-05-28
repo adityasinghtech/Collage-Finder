@@ -55,7 +55,7 @@ export default function Footer() {
             © {new Date().getFullYear()} CampusIQ. All rights reserved.
           </p>
           <p className="text-xs text-gray-400">
-            Built as a Frontend Engineer Demo
+            Designed & Engineered by Aditya Singh
           </p>
         </div>
       </div>
