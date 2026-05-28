@@ -15,7 +15,7 @@ A production-grade Next.js MVP for a College Discovery platform. Built as a demo
 - **Framework:** Next.js 14 (App Router)
 - **Language:** TypeScript
 - **Styling:** TailwindCSS v4
-- **Database:** SQLite (for local MVP)
+- **Database:** PostgreSQL
 - **ORM:** Prisma
 - **Auth:** NextAuth.js
 - **Icons:** Lucide React
@@ -27,11 +27,9 @@ First, install dependencies:
 npm install
 ```
 
-Generate Prisma client and seed the database with mock data:
 ```bash
-npx prisma generate
-npx prisma migrate dev --name init
-npm run build
+npx prisma db push
+npm run dev
 ```
 
 Run the development server:
